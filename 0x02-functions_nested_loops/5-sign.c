@@ -1,28 +1,27 @@
-#include"main.h"
+#include "main.h"
 /**
- * print_sign - this function check the nature of numbers
- *
- * @n: variable
- *
- * Return: 1 if positive , -1 if num is negative and return 0 if equl zero
- *
+ * print_sign - to pring the sign of number
+ * @n: the number
+ * Return: Always 0 (success)
  */
-
 int print_sign(int n)
 {
+	int i;
+
 	if (n > 0)
 	{
-		return (1);
-		_putchar('+');
+		_putchar(43);
+		i = 1;
 	}
-	else if (n < 0)
+	else if (n == 0)
 	{
-		return (-1);
-		_putchar('-');
+		_putchar(48);
+		i = 0;
 	}
 	else
 	{
-		return (0);
-		_putchar('0');
+		_putchar(45);
+		i = -1;
 	}
+	return (i);
 }
