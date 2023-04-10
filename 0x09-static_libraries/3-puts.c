@@ -1,17 +1,13 @@
-#include "holberton.h"
-
+#include "main.h"
+#include <string.h>
 /**
- * _puts - prints string
- * @str: input string
- * Return: no return
+ * _puts - return the value of the lens of string
+ * @str: the string
+ * Return: Always 0
  */
-
 void _puts(char *str)
 {
-	while (*str != '\0')
-	{
-		_putchar(*str);
-		str++;
-	}
-	_putchar('\n');
+	int puts(const char *str);
+
+	puts(str);
 }
