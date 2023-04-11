@@ -6,8 +6,7 @@
  * @str: the string
  *
  *Return: A pointer
-
-
+ *
  */
 
 
