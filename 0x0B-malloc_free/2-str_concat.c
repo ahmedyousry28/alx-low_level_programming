@@ -4,9 +4,9 @@
  * str_concat -  a function that concatenates two strings
  *
  *@s1: the first string
-
+ *
  *@s2: the second string
-
+ *
  * Return: A pointer that point to the string
  *
  */
